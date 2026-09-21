@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import "./AdminDashboard.css";
 
-const API = "http://localhost:8080/api";
-
+const API = "https://digital-heroes-o9f8.onrender.com/api";
 export default function AdminDashboard() {
   const [adminEmail, setAdminEmail] = useState("suhana@gmail.com");
   const [draw, setDraw] = useState(null);

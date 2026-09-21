@@ -11,8 +11,7 @@ import {
   useSearchParams
 } from "react-router-dom";
 
-const API = "http://localhost:8080/api";
-
+const API = "https://digital-heroes-o9f8.onrender.com/api";
 const charities = [
   {
     name: "Golf For Good Foundation",
